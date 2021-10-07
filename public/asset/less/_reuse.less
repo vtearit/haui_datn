@@ -1,0 +1,121 @@
+//btn shop
+.btn-shop {
+    background-color: @bg-color-btnshop;
+    font-size: 14px;
+    color: @color-btnshop;
+    font-weight: 400;
+    font-family: main-font;
+    text-align: center;
+    border: 0;
+    padding: 10px 18px;
+}
+.btn-shop:focus {
+    outline: none;
+}
+
+//btn add cart
+.btn-add-cart {
+    width: 118px;
+    height: 40px;
+    background-color: @btnaddcart-bg-color;
+    font-size: 12px;
+    line-height: 26px;
+    color: @btnaddcart-color;
+    font-weight: 400;
+    font-family: main-font;
+    border: none;
+    font-weight: bold;
+}
+.btn-add-cart:focus {
+    outline: none;
+}
+
+.btn-add-cart:hover {
+    color: @btnaddcart-hover-color;
+}
+
+//introduce
+.introduce {
+    font-family: main-font-bold;
+    &__article {
+        font-size: 12px;
+        letter-spacing: 6px;
+        color: @introduce-article-color;
+        font-weight: 700;
+    }
+    &__title {
+        font-size: 24px;
+        letter-spacing: 2px;
+        color: @introduce-title-color;
+        font-weight: 700;
+    }
+    &__underline {
+        margin-top: 16px;
+        width: 50px;
+        height: 1px;
+        background-color: @introduce-underline-color;
+    }
+}
+
+//li
+.li {
+    list-style: none;
+
+}
+
+//a
+.a {
+    text-decoration: none;
+    width: 263px;
+    height: 226px;
+    font-size: 14px;
+    line-height: 30px;
+    color: @a-color;
+    font-weight: 400;
+}
+
+.a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: @a-hover-color;
+    font-size: 14px;
+    font-weight: 400;
+    width: 263px;
+    height: 226px;
+    line-height: 30px;
+}
+
+//icon heart red
+.icon-heart-red {
+    color: @iconheart-color;
+}
+
+//star yellow
+.star-yellow {
+    color      : @star-yellow-color;
+    margin-left: -5px;
+}
+
+//star black
+.star-black {
+    color: @star-black-color;
+    margin-left: -5px;
+}
+
+//icon header
+.icon-header {
+    margin-right: 5px;
+}
+
+.span-slider {
+    padding-left: 5px;
+}
+
+//transition
+.transition (@_x, @_y) {
+    transition-property: @_x;
+    transition-duration: @_y;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s
+}
